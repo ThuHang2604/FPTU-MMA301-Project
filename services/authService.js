@@ -4,8 +4,6 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 const TOKEN_KEY = "token";
 
 const AuthService = {
-  // Sign up
-  // userData - { username, password, email, phoneNumber, address }
   register: async (userData) => {
     try {
       const response = await api.post('/auth/register', userData);
@@ -15,8 +13,6 @@ const AuthService = {
     }
   },
 
-  // Login
-  // credentials - { username, password }
   login: async (credentials) => {
     try {
       const response = await api.post('/auth/login', credentials);

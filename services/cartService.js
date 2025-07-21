@@ -1,4 +1,3 @@
-// services/cartService.js
 import api from './api';
 
 const CartService = {
