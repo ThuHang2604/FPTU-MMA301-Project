@@ -4,7 +4,7 @@ const ProfileService = {
   // get user's profile
   getProfile: async () => {
     try {
-      const response = await api.get('/profile'); // Đúng route
+      const response = await api.get('/profile'); 
       return response.data;
     } catch (error) {
       throw error.response?.data || error;

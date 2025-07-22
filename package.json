@@ -17,6 +17,7 @@
     "expo-status-bar": "~2.2.3",
     "react": "19.0.0",
     "react-native": "0.79.5",
+    "react-native-bootsplash": "^6.3.10",
     "react-native-dotenv": "^3.4.11",
     "react-native-gesture-handler": "^2.27.1",
     "react-native-safe-area-context": "^5.5.2",
